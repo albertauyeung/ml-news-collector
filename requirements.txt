@@ -1,0 +1,4 @@
+telepot==12.7
+feedparser==5.2.1
+beautifulsoup4==4.6.3
+PyYAML==3.13

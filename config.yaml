@@ -1,0 +1,17 @@
+rss:
+  database:
+    name: ml_news.db
+    table: ml_news
+  settings:
+    token: <telegram_bot_token>
+    daily_news: 10 # number of news pushed daily
+  subscribers:
+    - 123456789 # telegram chat ID of subscribed users
+  urls:
+    - http://feeds.feedburner.com/blogspot/gJZg
+    - http://machinelearningmastery.com/blog/feed/
+    - https://www.google.com/alerts/feeds/14854203471961775361/5698488772217799436
+    - https://research.fb.com/feed/
+    - http://news.mit.edu/rss/topic/robotics
+    - https://aws.amazon.com/blogs/machine-learning/feed/
+    - https://www.jiqizhixin.com/rss
